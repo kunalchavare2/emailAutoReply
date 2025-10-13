@@ -79,6 +79,7 @@ web_modules/
 .env.production.local
 .env.local
 
+# Azure Functions local settings
 local.settings.json
 
 # parcel-bundler cache (https://parceljs.org/)
