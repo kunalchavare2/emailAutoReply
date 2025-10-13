@@ -18,7 +18,10 @@
   },
   "dependencies": {
     "@azure/identity": "^4.2.0",
+    "@google/generative-ai": "^0.24.1",
     "@microsoft/microsoft-graph-client": "^3.0.7",
-    "isomorphic-fetch": "^3.0.0"
+    "dotenv": "^17.2.3",
+    "isomorphic-fetch": "^3.0.0",
+    "mongodb": "^6.20.0"
   }
 }
