@@ -2,7 +2,7 @@
   "name": "emailautoreply",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "HttpTrigger1/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kunalchavare2/emailAutoReply.git"
@@ -14,28 +14,11 @@
   },
   "homepage": "https://github.com/kunalchavare2/emailAutoReply#readme",
   "scripts": {
-    "lint": "eslint src/**/*.ts",
-    "build": "npx tsc",
-    "start": "node dist/index.js",
-    "dev": "nodemon --exec \"npm run lint && ts-node\" src/index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "func start"
   },
-  "keywords": [],
   "dependencies": {
-    "@socket.io/admin-ui": "^0.5.1",
-    "dotenv": "^16.4.5",
-    "express": "^4.21.0",
-    "socket.io": "^4.8.1"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.17.0",
-    "@types/express": "^4.17.21",
-    "@types/node": "^20.12.7",
-    "eslint": "^9.17.0",
-    "globals": "^15.13.0",
-    "nodemon": "^3.1.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.4.5",
-    "typescript-eslint": "^8.18.1"
+    "@azure/identity": "^4.2.0",
+    "@microsoft/microsoft-graph-client": "^3.0.7",
+    "isomorphic-fetch": "^3.0.0"
   }
 }
