@@ -94,7 +94,8 @@ module.exports = async function (context, req) {
     "${body}"
     A matched answer from the knowledge base is:
     "${matchedAnswer}"
-    Please compose a polite and formal reply to the sender, incorporating the matched answer where appropriate.
+    Please compose a polite and formal reply to the sender, by using the matched answer.
+    give properly formatted email reply.
     `;
 
     // Ensure input is always valid and iterable
