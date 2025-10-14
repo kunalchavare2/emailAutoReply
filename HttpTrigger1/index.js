@@ -96,7 +96,7 @@ module.exports = async function (context, req) {
     "${matchedAnswer}"
     Please compose a polite and formal reply to the sender, by using the matched answer.
     give properly formatted email reply. Only provide the email body in your response.
-
+    HTML email with proper paragraphs and line breaks.
     `;
 
     // Ensure input is always valid and iterable
