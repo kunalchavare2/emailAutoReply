@@ -95,8 +95,22 @@ module.exports = async function (context, req) {
     A matched answer from the knowledge base is:
     "${matchedAnswer}"
     Please compose a polite and formal reply to the sender, by using the matched answer.
-    give properly formatted email reply. Only provide the email body in your response.
+    give properly formatted email reply. 
+    Only provide the email body in your response.
     HTML email with proper paragraphs and line breaks.
+    It should be concise, polite, and directly address the sender's query.
+
+    example:
+    <p>Dear Customer,</p>
+
+<p>Thank you for contacting us regarding your request to change your address.</p>
+
+<p>You can change your delivery address before the order is shipped from the 'Orders' section in your account.</p>
+
+<p>If you require any further assistance or have additional questions, please do not hesitate to contact us.</p>
+
+<p>Sincerely,<br>
+Customer Support Team</p>
     `;
 
     // Ensure input is always valid and iterable
